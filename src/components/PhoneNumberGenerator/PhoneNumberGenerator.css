@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+.form {
+  padding: 10px;
+}
+
+.download-button {
+  float: right;
+  padding-bottom: 20px;
+}
