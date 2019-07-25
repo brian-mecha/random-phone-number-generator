@@ -1,12 +1,12 @@
 version: 2
- jobs:
-   build:
-     docker:
-       - image: circleci/node:8
-     steps:
-       - checkout
-       - run: echo "A first hello"
-       - restore_cache: # special step to restore the dependency cache
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run: echo "A first hello"
+      - restore_cache: # special step to restore the dependency cache
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Install Dependencies
