@@ -10,7 +10,7 @@ const generateRandomNumber = (data) => {
 }
 
 // Sorts the phone numbers in the specified order
-const sortPhoneNumbers = (data, sortOrder) => {
+export const sortPhoneNumbers = (data, sortOrder) => {
   if (sortOrder === 'ASC') {
     return data.sort();
   }
