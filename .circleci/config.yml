@@ -9,7 +9,7 @@ version: 2
        - restore_cache: # special step to restore the dependency cache
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
-          name: Setup Dependencies
+          name: Install Dependencies
           command: yarn install
       - save_cache: # special step to save the dependency cache
           key: dependency-cache-{{ checksum "package.json" }}
@@ -18,3 +18,6 @@ version: 2
       - run: # run tests
           name: Run Tests
           command: yarn test
+      - run: # run coverage
+          name: Run Coverage
+          command: yarn coveralls
