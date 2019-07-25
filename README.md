@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/brian-mecha/random-phone-number-generator/tree/master.svg?style=svg)](https://circleci.com/gh/brian-mecha/random-phone-number-generator/tree/master) [![Coverage Status](https://coveralls.io/repos/github/brian-mecha/random-phone-number-generator/badge.svg?branch=ch-write-tests)](https://coveralls.io/github/brian-mecha/random-phone-number-generator?branch=ch-write-tests)
+[![CircleCI](https://circleci.com/gh/brian-mecha/random-phone-number-generator/tree/master.svg?style=svg)](https://circleci.com/gh/brian-mecha/random-phone-number-generator/tree/master) [![Coverage Status](https://coveralls.io/repos/github/brian-mecha/random-phone-number-generator/badge.svg?branch=master)](https://coveralls.io/github/brian-mecha/random-phone-number-generator?branch=master)
 
 # Random Phone Number Generator
 A simple appplication to generation a set of random unique phone numbers.
