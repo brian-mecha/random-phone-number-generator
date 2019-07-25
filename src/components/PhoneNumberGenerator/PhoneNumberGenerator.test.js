@@ -42,4 +42,13 @@ describe('Phone Number generator', () => {
     button.simulate('click');
     expect(table.length).toBe(1);
   });
+
+  it('simulates change on the input box higher than 10,000', () => {
+    const input = wrapper.find('input[type="number"]');
+    expect(input.instance().value).toEqual('2000');
+
+    input.simulate('change', { target: { value: 20000 }});
+    expect(input.instance().value).toEqual('20000');
+    expect(wrapper.state().isDisabled).toBe(true);
+  });
 });
