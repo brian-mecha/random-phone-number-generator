@@ -108,7 +108,7 @@ export default class PhoneNumberGenerator extends Component {
               </Form.Item>
 
               <Form.Item>
-                <Button type="primary" onClick={this.generateNewPhoneNumbers} disabled={isDisabled} loading={isLoading}>
+                <Button type="primary" id="generate-button" onClick={this.generateNewPhoneNumbers} disabled={isDisabled} loading={isLoading}>
                   <Icon type="sliders" /> Generate
                 </Button>
               </Form.Item>
@@ -137,7 +137,7 @@ export default class PhoneNumberGenerator extends Component {
                     <dt><strong>Order:</strong></dt>
                     <dd>{sortOrder || '--'}</dd>
                     <dt><strong>Minimum:</strong></dt>
-                    <dd>{this.getMinMaxValue(phoneNumbers, 'min') || '--'}</dd>
+                    <dd id="min-stat">{this.getMinMaxValue(phoneNumbers, 'min') || '--'}</dd>
                     <dt><strong>Maximum:</strong></dt>
                     <dd>{this.getMinMaxValue(phoneNumbers, 'max') || '--'}</dd>
                   </dl>
