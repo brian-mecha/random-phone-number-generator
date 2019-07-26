@@ -17,6 +17,9 @@ A simple appplication to generation a set of random unique phone numbers.
 ## Technologies
 - [React JS](https://reactjs.org/)
 
+## Live App
+The application is hosted [here.](https://phonenumbergenerator.herokuapp.com/)
+
 ## License
 &copy; Brian Mecha
 
