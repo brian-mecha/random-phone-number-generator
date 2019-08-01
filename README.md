@@ -19,8 +19,3 @@ A simple appplication to generation a set of random unique phone numbers.
 
 ## Live App
 The application is hosted [here.](https://phonenumbergenerator.herokuapp.com/)
-
-## License
-&copy; Brian Mecha
-
-Licensed under the [MIT License](https://github.com/iverenshaguy/random-phone-number-generator/blob/develop/LICENSE)
